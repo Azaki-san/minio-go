@@ -39,9 +39,9 @@ import (
 	"time"
 
 	md5simd "github.com/minio/md5-simd"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/signer"
+	"github.com/Azaki-san/minio-go/pkg/credentials"
+	"github.com/Azaki-san/minio-go/pkg/s3utils"
+	"github.com/Azaki-san/minio-go/pkg/signer"
 	"golang.org/x/net/publicsuffix"
 )
 

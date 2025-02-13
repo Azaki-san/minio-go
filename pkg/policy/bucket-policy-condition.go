@@ -17,7 +17,7 @@
 
 package policy
 
-import "github.com/minio/minio-go/v7/pkg/set"
+import "github.com/Azaki-san/minio-go/pkg/set"
 
 // ConditionKeyMap - map of policy condition key and value.
 type ConditionKeyMap map[string]set.StringSet

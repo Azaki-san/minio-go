@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/goccy/go-json"
+	"github.com/Chi-Go/go-json"
 )
 
 // StringSet - uses map as set of strings.

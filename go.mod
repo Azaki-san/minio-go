@@ -1,11 +1,11 @@
-module github.com/minio/minio-go/v7
+module github.com/Azaki-san/minio-go
 
-go 1.22
+go 1.24
 
 require (
+	github.com/Chi-Go/go-json v1.1.3
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-ini/ini v1.67.0
-	github.com/goccy/go-json v0.10.5
 	github.com/google/uuid v1.6.0
 	github.com/klauspost/compress v1.17.11
 	github.com/minio/crc64nvme v1.0.0

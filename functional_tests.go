@@ -50,12 +50,12 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/google/uuid"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/cors"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/encrypt"
-	"github.com/minio/minio-go/v7/pkg/notification"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/Azaki-san/minio-go"
+	"github.com/Azaki-san/minio-go/pkg/cors"
+	"github.com/Azaki-san/minio-go/pkg/credentials"
+	"github.com/Azaki-san/minio-go/pkg/encrypt"
+	"github.com/Azaki-san/minio-go/pkg/notification"
+	"github.com/Azaki-san/minio-go/pkg/tags"
 )
 
 const letterBytes = "abcdefghijklmnopqrstuvwxyz01234569"

@@ -3,7 +3,7 @@
 The MinIO Go Client SDK provides straightforward APIs to access any Amazon S3 compatible object storage.
 
 This Quickstart Guide covers how to install the MinIO client SDK, connect to MinIO, and create a sample file uploader.
-For a complete list of APIs and examples, see the [godoc documentation](https://pkg.go.dev/github.com/minio/minio-go/v7) or [Go Client API Reference](https://min.io/docs/minio/linux/developers/go/API.html).
+For a complete list of APIs and examples, see the [godoc documentation](https://pkg.go.dev/github.com/Azaki-san/minio-go) or [Go Client API Reference](https://min.io/docs/minio/linux/developers/go/API.html).
 
 These examples presume a working [Go development environment](https://golang.org/doc/install) and the [MinIO `mc` command line tool](https://min.io/docs/minio/linux/reference/minio-mc.html).
 
@@ -12,7 +12,7 @@ These examples presume a working [Go development environment](https://golang.org
 From your project directory:
 
 ```sh
-go get github.com/minio/minio-go/v7
+go get github.com/Azaki-san/minio-go/
 ```
 
 ## Initialize a MinIO Client Object
@@ -30,8 +30,8 @@ package main
 import (
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/Azaki-san/minio-go/"
+	"github.com/Azaki-san/minio-go/pkg/credentials"
 )
 
 func main() {
@@ -78,8 +78,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/Azaki-san/minio-go"
+	"github.com/Azaki-san/minio-go/pkg/credentials"
 )
 
 func main() {
@@ -149,8 +149,8 @@ fsutil file createnew "C:\Users\<username>\Desktop\sample.txt" 20480
 
 ```sh
 go mod init example/FileUploader
-go get github.com/minio/minio-go/v7
-go get github.com/minio/minio-go/v7/pkg/credentials
+go get github.com/Azaki-san/minio-go
+go get github.com/Azaki-san/minio-go/pkg/credentials
 go run FileUploader.go
 ```
 
@@ -299,7 +299,7 @@ The full API Reference is available here.
 
 ## Explore Further
 
-* [Godoc Documentation](https://pkg.go.dev/github.com/minio/minio-go/v7)
+* [Godoc Documentation](https://pkg.go.dev/github.com/Azaki-san/minio-go)
 * [Complete Documentation](https://min.io/docs/minio/kubernetes/upstream/index.html)
 * [MinIO Go Client SDK API Reference](https://min.io/docs/minio/linux/developers/go/API.html)
 

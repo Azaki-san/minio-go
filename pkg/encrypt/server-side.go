@@ -23,7 +23,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/goccy/go-json"
+	"github.com/Chi-Go/go-json"
 	"golang.org/x/crypto/argon2"
 )
 

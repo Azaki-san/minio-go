@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/Azaki-san/minio-go/pkg/s3utils"
+	"github.com/Azaki-san/minio-go/pkg/tags"
 )
 
 // PutObjectTaggingOptions holds an object version id
